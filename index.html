@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers - Shape Your Future | Tata Steel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">TATA STEEL</a>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#opportunities">Opportunities</a></li>
+                    <li><a href="#jobs">Jobs</a></li>
+                    <li><a href="#culture">Culture</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu" id="mobile-menu">☰</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Shape Your Future with Steel</h1>
+            <p>Join India's leading steel company and build a career that makes a difference. Discover opportunities that challenge, inspire, and reward excellence.</p>
+            <div class="cta-buttons">
+                <a href="#jobs" class="btn btn-primary">Explore Careers</a>
+                <a href="#culture" class="btn btn-secondary">Our Culture</a>
+            </div>
+        </div>
+        <!-- Floating particles -->
+        <div class="particle" style="top: 20%; left: 10%; width: 10px; height: 10px; animation-delay: 0s;"></div>
+        <div class="particle" style="top: 60%; left: 80%; width: 15px; height: 15px; animation-delay: 2s;"></div>
+        <div class="particle" style="top: 80%; left: 20%; width: 8px; height: 8px; animation-delay: 4s;"></div>
+        <div class="particle" style="top: 40%; left: 90%; width: 12px; height: 12px; animation-delay: 3s;"></div>
+        <div class="particle" style="top: 70%; left: 5%; width: 6px; height: 6px; animation-delay: 1s;"></div>
+    </section>
+
+    <!-- Opportunities Section -->
+    <section class="opportunities" id="opportunities">
+        <div class="container">
+            <h2 class="section-title">Career Opportunities</h2>
+            <div class="opportunities-grid">
+                <div class="opportunity-card">
+                    <div class="card-icon">🎓</div>
+                    <h3 class="card-title">Graduate Programs</h3>
+                    <p class="card-description">Kickstart your career with our comprehensive graduate programs designed for fresh engineering and management graduates.</p>
+                </div>
+                <div class="opportunity-card">
+                    <div class="card-icon">⚡</div>
+                    <h3 class="card-title">Experienced Professionals</h3>
+                    <p class="card-description">Bring your expertise to challenging roles across manufacturing, research, sales, and operations in our growing organization.</p>
+                </div>
+                <div class="opportunity-card">
+                    <div class="card-icon">🔬</div>
+                    <h3 class="card-title">Research & Development</h3>
+                    <p class="card-description">Join our world-class R&D teams working on cutting-edge technologies and sustainable steel solutions for the future.</p>
+                </div>
+                <div class="opportunity-card">
+                    <div class="card-icon">🌐</div>
+                    <h3 class="card-title">Global Roles</h3>
+                    <p class="card-description">Explore international opportunities across our operations in Europe, Southeast Asia, and other global markets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listings Section -->
+    <section class="job-listings" id="jobs">
+        <div class="container">
+            <h2 class="section-title">Current Openings</h2>
+            
+            <!-- Search will be dynamically added here -->
+            
+            <div class="job-filters">
+                <button class="filter-btn active" data-filter="all">All Positions</button>
+                <button class="filter-btn" data-filter="engineering">Engineering</button>
+                <button class="filter-btn" data-filter="management">Management</button>
+                <button class="filter-btn" data-filter="operations">Operations</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+            </div>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Loading job opportunities...</p>
+            </div>
+            
+            <div class="job-grid" id="job-grid">
+                <!-- Jobs will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section class="culture" id="culture">
+        <div class="container">
+            <h2 class="section-title">Our Culture</h2>
+            <div class="culture-grid">
+                <div class="culture-item">
+                    <span class="culture-icon">🤝</span>
+                    <h3 class="culture-title">Collaboration</h3>
+                    <p>We believe in the power of teamwork and collective achievement across all levels of the organization.</p>
+                </div>
+                <div class="culture-item">
+                    <span class="culture-icon">🚀</span>
+                    <h3 class="culture-title">Innovation</h3>
+                    <p>Continuous learning and innovation drive our success in creating sustainable steel solutions.</p>
+                </div>
+                <div class="culture-item">
+                    <span class="culture-icon">💪</span>
+                    <h3 class="culture-title">Excellence</h3>
+                    <p>We strive for excellence in everything we do, from safety standards to product quality.</p>
+                </div>
+                <div class="culture-item">
+                    <span class="culture-icon">🌱</span>
+                    <h3 class="culture-title">Sustainability</h3>
+                    <p>Environmental responsibility and sustainable practices are at the core of our operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Process -->
+    <section class="application-process">
+        <div class="container">
+            <h2 class="section-title">Application Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Apply Online</h3>
+                    <p class="step-description">Submit your application through our career portal with updated resume and documents.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Initial Screening</h3>
+                    <p class="step-description">Our HR team reviews applications and conducts preliminary assessments.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Technical Interview</h3>
+                    <p class="step-description">Participate in technical discussions with subject matter experts and hiring managers.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Final Selection</h3>
+                    <p class="step-description">Complete final interviews and receive your offer to join the Tata Steel family.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="position">Position of Interest</label>
+                    <select id="position" name="position" required>
+                        <option value="">Select a position</option>
+                        <option value="engineering">Engineering</option>
+                        <option value="management">Management</option>
+                        <option value="operations">Operations</option>
+                        <option value="research">Research & Development</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your interests and background..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms & Conditions</a>
+                <a href="#careers">Careers</a>
+                <a href="#contact">Contact Us</a>
+                <a href="#sustainability">Sustainability</a>
+            </div>
+            <p>&copy; 2024 Tata Steel Limited. All rights reserved. | Building India's Tomorrow</p>
+        </div>
+    </footer>
+
+    <!-- Job Application Modal -->
+    <div class="modal" id="job-modal">
+        <div class="modal-content">
+            <span class="modal-close" id="modal-close">&times;</span>
+            <h3 id="modal-job-title"></h3>
+            <p id="modal-job-description"></p>
+            <form id="application-form">
+                <div class="form-group">
+                    <label for="applicant-name">Full Name</label>
+                    <input type="text" id="applicant-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="applicant-email">Email</label>
+                    <input type="email" id="applicant-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Resume (PDF)</label>
+                    <input type="file" id="resume" accept=".pdf" required>
+                </div>
+                <div class="form-group">
+                    <label for="cover-letter">Cover Letter (Optional)</label>
+                    <textarea id="cover-letter" placeholder="Tell us why you're interested in this position..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
